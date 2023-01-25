@@ -1,4 +1,14 @@
-# Write a function create that takes three arguments (name, age, country) and uses them to create and return an object of a class called Person with the corresponding properties.
-# Important: Persons with equal attributes values have to be considered equal. (Hint: __eq__)
-#
-# You are not allowed to import a library.
+class Person:
+    def __init__(self, name, age, country):
+        self.name = name
+        self.age = age
+        self.country = country
+
+    def __eq__(self, other):
+        if not isinstance(other, Person):
+            return False
+        else:
+            return self.name == other.name and self.age == other.age and self.country == other.country
+
+def create(name, age, country):
+    return Person(name, age, country)
