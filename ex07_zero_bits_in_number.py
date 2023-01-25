@@ -1,7 +1,7 @@
 def zero_bits_in_number(hexadecimal):
     # TODO implement
     # takes str, return int
-    pass
+    return (bin(int(hexadecimal, 16)))[2:].count('0')
 
 
 def main():

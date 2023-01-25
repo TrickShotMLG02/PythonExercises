@@ -1,6 +1,22 @@
+from collections import defaultdict
+
 def frequency(string):
     # TODO implement
     # return a dict with the frequency of the letters
+
+    # Example:
+    # frequency('Hello World') == {'d': 1, ' ': 1, 'l': 3, 'r': 1, 'H': 1, 'e': 1, 'W': 1, 'o': 2}
+
+    freq = defaultdict(int)
+
+    for letter in string:
+        if letter in freq:
+            freq[letter] += 1
+        else:
+            freq[letter] = 1
+
+    return freq
+
     pass
 
 

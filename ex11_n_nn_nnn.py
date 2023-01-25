@@ -1,7 +1,8 @@
+# Write a python function called n_nn_nnn that as input takes a positive integer n and computes nnn+nn+n (e.g., n_nn_nnn(5): 555+55+5.
+
 def n_nn_nnn(n):
     # TODO implement
-    # return an int
-    pass
+    return int(str(n) * 3) + int(str(n) * 2) + int(str(n) * 1)
 
 
 def main():

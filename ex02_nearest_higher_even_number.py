@@ -1,7 +1,10 @@
 def nearest_higher_even_number(x):
     # TODO: implement
     # returns an int
-    pass
+    if x % 2 == 0:
+        return x + 2
+    else:
+        return x + 1
 
 
 def main():

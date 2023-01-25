@@ -1,7 +1,8 @@
 def one_bits_in_number(hexadecimal):
     # TODO implement
     # takes str, return int
-    pass
+
+    return bin(int(hexadecimal, 16)).count('1')
 
 def main():
     # Note: This is only for student-side debugging

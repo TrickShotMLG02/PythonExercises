@@ -1,7 +1,12 @@
 def is_bigger(x, y):
     # TODO implement
     # return either '<x> is smaller than <y>', '<x> is bigger than <y>', '<x> is equal to <y>'
-    pass
+    if x > y:
+        return '{} is bigger than {}'.format(x, y)
+    elif x < y:
+        return '{} is smaller than {}'.format(x, y)
+    else:
+        return '{} is equal to {}'.format(x, y)
 
 
 def main():

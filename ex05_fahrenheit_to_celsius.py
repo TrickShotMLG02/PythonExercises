@@ -1,7 +1,8 @@
 def fahrenheit_to_celsius(fahrenheit):
     # TODO implement
     # returns temperature in Celsius, rounded to 2 decimals
-    pass
+    celsius = (fahrenheit - 32) * 5 / 9
+    return round(celsius, 2)
 
 
 def main():

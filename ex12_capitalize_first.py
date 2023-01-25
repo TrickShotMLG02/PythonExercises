@@ -1,6 +1,8 @@
 def capitalize_first(string):
     # TODO implement
     # return an str with the first letter capitalized
+    # and the rest of the string unchanged
+    return string[0].upper() + string[1:]
     pass
 
 

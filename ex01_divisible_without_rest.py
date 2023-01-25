@@ -1,7 +1,8 @@
 def divisible_without_rest(x, y):
     # TODO: implement
     # returns True or False
-    pass
+
+    return x % y == 0
 
 
 def main():
