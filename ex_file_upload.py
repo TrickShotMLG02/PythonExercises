@@ -1,0 +1,1 @@
+# Write a function requests_files(nonce). Follow the instructions provided by https://python.cysec1.de/challenges/upload_file. Make sure to post the nonce parameter through a regular POST request along the file

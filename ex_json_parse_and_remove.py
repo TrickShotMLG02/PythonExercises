@@ -1,0 +1,1 @@
+# Write a function parse_and_remove(text, key), which takes the text, parses this as JSON, and removes the key from the resulting dictionary (if that is contained in it). It should finally return the JSON-serialized dictionary.

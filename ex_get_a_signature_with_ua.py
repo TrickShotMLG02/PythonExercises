@@ -1,0 +1,2 @@
+# Write a function requests_get_ua(nonce). This should make a GET request to https://python.cysec1.de/challenges/signer_ua_check?nonce=<nonce>. If done correctly, the answer is a JSON, which contains a key called hmac. This should be returned.
+# Hint: There is a server-side check you need to overcome. Make sure to solve Requests: GET a signature first.
